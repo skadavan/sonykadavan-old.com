@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+#permalink:        pretty
+permalink: 		   :title/
+
+# Setup
+title:            Sony Kadavan
+tagline:          ''
+description:      ''
+url:              http://www.sonykadavan.com
+baseurl:          
+
+author:
+  name:           'Sony Kadavan'
+  url:            https://twitter.com/skadavan
+
+paginate:         5
+#category_title_prefix: 'Tagged as: '
+#category_title_prefix: ''
+
+gems:
+  - jekyll-sitemap
