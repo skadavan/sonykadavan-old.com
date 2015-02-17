@@ -1,10 +1,11 @@
+//@import "compass/css3/opacity";
+
 .site-header {
 	min-height: 56px;
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 2%;
 	border-bottom: 5px solid #e8e8e8;
-	max-width: 800px;
 }
 
 @mixin site-title {
@@ -23,10 +24,6 @@
 	color: orange;	
 }
 
-.blog {
-	@include blog;
-}
-
 .site-left {
 	float: left;
 	@include site-title;
@@ -43,7 +40,7 @@
 	margin-top: 20px;
 	text-align: center;	
 	color: gray;
-	margin-bottom: 0px;	
+	margin-bottom: 10px;
 }
 
 
@@ -84,14 +81,14 @@
 .workHeading {
 	font-size: 32pt;
 	font-weight: 100;
-	margin-top: 50px;
+	margin-top: 35px;
 	margin-bottom: 30px;
 	text-align: center;	
 	color: #adadad;
 }
 
 $workRadius: 100px;
-$workWidth: 200px;
+$workWidth: 350px;
 $workHeight: $workWidth;
 $workTopMargin: 45px;
 
@@ -112,13 +109,13 @@ $workTopMargin: 45px;
 
 .work h2 {
 	color: orange;
-	font-size: 14pt;
+	font-size: 18pt;
 	font-weight: 100;
 }
 
 .work p {
 	color: white;
-	font-size: 10pt;
+	font-size: 14pt;
 	font-weight: 100;
 	letter-spacing: .1rem;
 	text-decoration: none;
@@ -129,11 +126,22 @@ $workTopMargin: 45px;
 }
 
 
-.footer-text {
-	color: lightgrey !important;
-	font-size: 12pt;
+.footer-area {
+	margin-top:30px;
 }
 
-.footer-area {
-	padding-top:30px;
+.roundImage {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	width: 150px;	
+}
+
+.sm {
+	text-align: center;	
+	margin-top: 20px;
+}
+.smIcon {
+	height: 35px;
+	width: 35px;
 }
