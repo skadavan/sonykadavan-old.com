@@ -1,2 +1,2 @@
 # sonykadavan.com
-Personal Site
+build.sh for deploying
